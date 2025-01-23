@@ -10,6 +10,7 @@ let package = Package(
     targets: [
         .target(
             name: "Kingfisher",
+            exclude: ["Documentation.docc"],
             path: "Sources"
         )
     ]

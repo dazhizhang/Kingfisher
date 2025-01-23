@@ -17,6 +17,7 @@ let package = Package(
         .target(
             name: "Kingfisher",
             path: "Sources",
+            exclude: ["Documentation.docc"],
             resources: [.process("PrivacyInfo.xcprivacy")]
         )
     ]
